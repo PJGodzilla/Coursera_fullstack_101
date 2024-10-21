@@ -1,1 +1,229 @@
+<style>
 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+#box1, #box2, #box3{
+  background:LightBlue;
+  overflow:visible;
+  font-size: large;
+  border: 1px solid black;
+}
+
+#filler{
+  width:330px;
+  height:35px;
+  background:none;
+  overflow:visible;
+  font-size: large;
+}
+
+#subordinate{
+  background:LightBlue;
+  overflow:visible;
+  font-size: large;
+  text-align: left;
+  margin:10px;
+}
+
+
+.headers{
+  width:35%;
+  height:25px;
+  font-size: 12pt;
+  font-style: bold;
+  background-color: Orange;
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+p {
+  border: 1px solid black;
+  background-color: #3396FF;
+  width: 90%;
+  height: 150px;
+  margin-right: 1px;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+p2 {
+  border: 1px solid black;
+  background-color: #FFCE33;
+  width: 10%;
+  height: 10px;
+  margin-right: 1px;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+}
+
+
+h2 {
+  margin-bottom: 15px;
+  border: 1px solid black;
+  background-color: #FFCE33;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+span{
+position:relative;
+  top:30px; 
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px){ 
+  .lg1 {
+    float: left;
+    border: 10px solid white;
+    margin: 1px solid white;
+  }
+  .lg1 {
+    width:30%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .med2 {
+    float: left;
+    border: 10px solid white;
+    margin: 1px solid Blue;
+  }
+  .med2 {
+    width: 44%;  
+    }
+  .med3 {
+    float: left;
+    border: 10px solid white;
+    margin: 1px solid Blue;
+  }
+  .med3 {
+    width: 90%;  
+    }
+  }
+
+  /********** Mobile devices only **********/
+@media (max-width: 767px){ 
+  .mbl1 {
+    float: left;
+    border: 10px solid white;
+    margin: 1px solid Blue;
+  }
+  .mbl1 {
+    width:80%;
+  }
+}
+
+
+
+
+  /*.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid green;
+    margin: 1px solid Blue;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+/*@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+*/
+</style>
